@@ -1,0 +1,33 @@
+extends ../layouts/common.pug
+
+block content
+
+    .container
+        link(rel="stylesheet", href="/style/indexUser.css") 
+        span.d-flex.align-items-center
+            h1.title User list
+            .ml-auto
+                a(href='/users/create').btn.btn-warning.mt-2.ml-2.mr-2.ml-auto Create
+                a.btn.btn-primary.mt-2.ml-2.mr-2.ml-auto(href='/login') Login
+        .d-flex.align-items-center 
+            form(action='/users/search',method='get').form-inline
+                .form-group 
+                    input(id='search',type='text',name='p',value=s,focus).form-control.ml-1.mr-1
+                    button.form-control.btn-success.ml-1.mr-1 Search
+        table.table
+            tr
+                th name
+                th age 
+                th phone
+                th address 
+                th
+            each item in users
+                tr
+                    td= item.name 
+                    td= item.age 
+                    td= item.phone
+                    td= item.address 
+                    td 
+                        a(href='/users/'+ item.id) view 
+    footer
+        

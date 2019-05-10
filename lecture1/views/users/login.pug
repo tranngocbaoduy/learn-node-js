@@ -1,0 +1,23 @@
+extends ../layouts/common.pug
+block content
+    link(rel="stylesheet", href="/style/login.css")
+    link(rel="stylesheet", href="/style/common.css")
+    .row 
+        .col-lg-12.login-form  
+            h1.title Login
+            form(action='/login', method='post')
+                .form-group 
+                    input.form-control.txt-common(type='email', aria-describedby='emailHelp', placeholder='Enter email') 
+                .form-group 
+                    input.form-control.txt-common(type='password', placeholder='Password') 
+                .form-group    
+                    button.form-control.btn.btn-primary(type='submit') Login Now
+        
+        //- .col-lg-6.sign-up-form 
+        //-     h1 Sign Up
+        //-     form
+        //-         .form-group 
+        //-             input.form-control.txt-common(type='email', aria-describedby='emailHelp', placeholder='Enter email') 
+        //-         .form-group 
+        //-             input.form-control.txt-common(type='password', placeholder='Password') 
+        //-         button.btn.btn-primary(type='submit') Submit 

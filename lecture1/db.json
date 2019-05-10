@@ -1,0 +1,53 @@
+{
+  "users": [
+    {
+      "id": "jJhpKtyHL",
+      "name": "Duy",
+      "age": "18",
+      "phone": "0793335049",
+      "address": "Huynh Tan Phat Street"
+    },
+    {
+      "id": "c8T6MNlvB",
+      "name": "Tung",
+      "age": "25",
+      "phone": "0765463728",
+      "address": "Pham Huu Lau Street"
+    },
+    {
+      "id": "njSKA-Vbt",
+      "name": "Tung",
+      "age": "25",
+      "phone": "0765463728",
+      "address": "Pham Huu Lau Street"
+    },
+    {
+      "id": "BUvxfX6Ev",
+      "name": "Duy",
+      "age": "45",
+      "phone": "0897265176",
+      "address": "Nguyen Luong Bang Street"
+    },
+    {
+      "id": "6N_NHHIrX",
+      "name": "Duy",
+      "age": "45",
+      "phone": "0897265176",
+      "address": "Nguyen Luong Bang Street"
+    },
+    {
+      "id": "b6ZXpoEYc",
+      "name": "Duy",
+      "age": "45",
+      "phone": "0897265176",
+      "address": "Nguyen Luong Bang Street"
+    },
+    {
+      "id": "dsxffBkKE",
+      "name": "Tin",
+      "age": "24",
+      "phone": "0876526152",
+      "address": "Ba Hat Street"
+    }
+  ]
+}
